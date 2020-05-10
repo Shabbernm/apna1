@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>Test</button>
+<form action="/core/gender" method="GET" class="form-horizontal">
+    <div class="form-actions">
+        <button class="btn btn-primary js-tooltip" title="" data-original-title="Make a POST request on the Gender List resource">GET</button>
+    </div>
+</form>
+<form action="/core/gender/3/" data-method="PUT" class="form-horizontal">
+    <div class="form-actions">
+        <button class="btn btn-primary js-tooltip" title="" data-original-title="Make a PUT request on the Gender Instance resource">PUT</button>
+        <button data-method="PATCH" class="btn btn-primary js-tooltip" title="" data-original-title="Make a PATCH request on the Gender Instance resource">PATCH</button>
+    </div>
+</form>
+<form action="/core/gender/" method="POST" class="form-horizontal">
+    <div class="form-actions">
+        <button class="btn btn-primary js-tooltip" title="" data-original-title="Make a POST request on the Gender List resource">POST</button>
+    </div>
+</form>
+
+
+</body>
+</html>
